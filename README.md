@@ -33,7 +33,8 @@ The dataset consists of 768 observations and 8 numerical independent variables. 
 * **Categorical & Numerical Analysis:** Distribution of variables.
 * **Target Analysis:** Analyzed the relationship between the target variable (`Outcome`) and features.
 ![Outcome](diabetes-model/outputs/img/outcome.png)
-* **Correlation Matrix:** Examined the correlation between features to identify multicollinearity and strong relationships. 
+* **Correlation Matrix:** Examined the correlation between features to identify multicollinearity and strong relationships.
+
 ![Correlation Matrix](diabetes-model/outputs/img/corr_matrix.png)
 
 ### 2. Data Preprocessing
@@ -74,7 +75,11 @@ The impact of Feature Engineering on model performance is observed as follows:
 | **F1 Score** | 0.64 | **0.69** |
 | **AUC** | 0.75 | **0.77** |
 
+**Base Model Feature Importance**
+
 ![Base Model](diabetes-model/outputs/img/base_model_feature_importance.png)
+
+**Final Model Feature Importance**
 
 ![Final Model](diabetes-model/outputs/img/final_model_feature_importance.png)
 
