@@ -32,7 +32,9 @@ The dataset consists of 768 observations and 8 numerical independent variables. 
 * **General Picture:** Examined dimensions, data types, and quantiles.
 * **Categorical & Numerical Analysis:** Distribution of variables.
 * **Target Analysis:** Analyzed the relationship between the target variable (`Outcome`) and features.
+![Outcome](outputs/img/outcome.png)
 * **Correlation Matrix:** Examined the correlation between features to identify multicollinearity and strong relationships. 
+![Correlation Matrix](outputs/img/corr_matrix.png)
 
 ### 2. Data Preprocessing
 * **Handling "Zero" Values:** In variables like `Glucose`, `Insulin`, `SkinThickness`, `BMI`, and `BloodPressure`, a value of 0 is not biologically possible. These were treated as missing values (NaN) and imputed using the median.
@@ -71,6 +73,10 @@ The impact of Feature Engineering on model performance is observed as follows:
 | **Precision** | 0.59 | **0.67** |
 | **F1 Score** | 0.64 | **0.69** |
 | **AUC** | 0.75 | **0.77** |
+
+![Base Model](outputs/img/base_model_feature_importance.png)
+
+![Final Model](outputs/img/final_model_feature_importance.png)
 
 > **Conclusion:** Feature engineering and data preprocessing steps successfully increased the model's accuracy and F1 score.
 
